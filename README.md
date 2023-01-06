@@ -49,46 +49,7 @@ OW-DETR/
 
 ### Results
 
-<table align="center">
-    <tr>
-        <th> </th>
-        <th align="center" colspan=2>Task1</th>
-        <th align="center" colspan=2>Task2</th>
-        <th align="center" colspan=2>Task3</th>
-        <th align="center" colspan=1>Task4</th>
-    </tr>
-    <tr>
-        <td align="left">Method</td>
-        <td align="center">U-Recall</td>
-        <td align="center">mAP</td>
-        <td align="center">U-Recall</td>
-        <td align="center">mAP</td>
-        <td align="center">U-Recall</td>
-        <td align="center">mAP</td>
-        <td align="center">mAP</td>
-    </tr>
-    <tr>
-        <td align="left">ORE-EBUI</td>
-        <td align="center">4.9</td>
-        <td align="center">56.0</td>
-        <td align="center">2.9</td>
-        <td align="center">39.4</td>
-        <td align="center">3.9</td>
-        <td align="center">29.7</td>
-        <td align="center">25.3</td>
-    </tr>
-    <tr>
-        <td align="left">OW-DETR</td>
-        <td align="center">7.5</td>
-        <td align="center">59.2</td>
-        <td align="center">6.2</td>
-        <td align="center">42.9</td>
-        <td align="center">5.7</td>
-        <td align="center">30.8</td>
-        <td align="center">27.8</td>
-    </tr>
-</table>
-
+![image](https://user-images.githubusercontent.com/104605826/210916496-e63bc151-bc1e-4608-8713-1f0c1bc54e6f.png)
 
 
 ### Our proposed splits
