@@ -139,7 +139,7 @@ If you use CAT, please consider citing:
 
 # Contact
 
-Should you have any question, please contact :e-mail: akshita.sem.iitr@gmail.com
+Should you have any question, please contact :e-mail: xiaomabufei@gmail.com
 
 **Acknowledgments:**
 
