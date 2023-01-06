@@ -38,7 +38,7 @@ The splits are present inside `data/VOC2007/OWOD/ImageSets/` folder. The remaini
 
 The files should be organized in the following structure:
 ```
-OW-DETR/
+CAT/
 └── data/
     └── VOC2007/
         └── OWOD/
@@ -60,16 +60,16 @@ OW-DETR/
 
 #### Dataset Preparation
 
-The splits are present inside `data/VOC2007/OWDETR/ImageSets/` folder.
+The splits are present inside `data/VOC2007/CAT/ImageSets/` folder.
 1. Make empty `JPEGImages` and `Annotations` directory.
 ```
-mkdir data/VOC2007/OWDETR/JPEGImages/
-mkdir data/VOC2007/OWDETR/Annotations/
+mkdir data/VOC2007/CAT/JPEGImages/
+mkdir data/VOC2007/CAT/Annotations/
 ```
 2. Download the COCO Images and Annotations from [coco dataset](https://cocodataset.org/#download).
 3. Unzip train2017 and val2017 folder. The current directory structure should look like:
 ```
-OW-DETR/
+CAT/
 └── data/
     └── coco/
         ├── annotations/
@@ -78,15 +78,15 @@ OW-DETR/
 ```
 4. Move all images from `train2017/` and `val2017/` to `JPEGImages` folder.
 ```
-cd OW-DETR/data
-mv data/coco/train2017/*.jpg data/VOC2007/OWDETR/JPEGImages/.
-mv data/coco/val2017/*.jpg data/VOC2007/OWDETR/JPEGImages/.
+cd CAT/data
+mv data/coco/train2017/*.jpg data/VOC2007/CAT/JPEGImages/.
+mv data/coco/val2017/*.jpg data/VOC2007/CAT/JPEGImages/.
 ```
 5. Use the code `coco2voc.py` for converting json annotations to xml files.
 
 The files should be organized in the following structure:
 ```
-OW-DETR/
+CAT/
 └── data/
     └── VOC2007/
         └── OWDETR/
@@ -96,7 +96,7 @@ OW-DETR/
 ```
 
 
-Currently, Dataloader and Evaluator followed for OW-DETR is in VOC format.
+Currently, Dataloader and Evaluator followed for CAT is in VOC format.
 
 ### Results
 
@@ -107,14 +107,14 @@ Currently, Dataloader and Evaluator followed for OW-DETR is in VOC format.
 
 #### Training on single node
 
-To train OW-DETR on a single node with 8 GPUS, run
+To train CAT on a single node with 8 GPUS, run
 ```bash
 ./run.sh
 ```
 
 #### Training on slurm cluster
 
-To train OW-DETR on a slurm cluster having 2 nodes with 8 GPUS each, run
+To train CAT on a slurm cluster having 2 nodes with 8 GPUS each, run
 ```bash
 sbatch run_slurm.sh
 ```
@@ -143,5 +143,5 @@ Should you have any question, please contact :e-mail: xiaomabufei@gmail.com
 
 **Acknowledgments:**
 
-CAT builds on previous works code base such as [OWDETR](https://github.com/akshitac8/ow-detr),[Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [Detreg](https://github.com/amirbar/DETReg), and [OWOD](https://github.com/JosephKJ/OWOD). If you found OW-DETR useful please consider citing these works as well.
+CAT builds on previous works code base such as [OWDETR](https://github.com/akshitac8/ow-detr),[Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR), [Detreg](https://github.com/amirbar/DETReg), and [OWOD](https://github.com/JosephKJ/OWOD). If you found CAT useful please consider citing these works as well.
 
