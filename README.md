@@ -135,7 +135,7 @@ cd CAT/data
 mv data/coco/train2017/*.jpg data/VOC2007/CAT/JPEGImages/.
 mv data/coco/val2017/*.jpg data/VOC2007/CAT/JPEGImages/.
 ```
-5. Annotations_selective link: [Annotations_selective]  (https://drive.google.com/drive/folders/1dsuwZyM0I-c2yl8IIR7gu7frkGjLnn0h?usp=share_link)
+5. Annotations_selective link: [Annotations_selective](https://drive.google.com/drive/folders/1dsuwZyM0I-c2yl8IIR7gu7frkGjLnn0h?usp=share_link)
 
 The files should be organized in the following structure:
 ```
