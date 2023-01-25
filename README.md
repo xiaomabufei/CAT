@@ -156,7 +156,7 @@ The splits are present inside `data/VOC2007/CAT/ImageSets/` folder.
 1. Make empty `JPEGImages` and `Annotations` directory.
 ```
 mkdir data/VOC2007/CAT/JPEGImages/
-mkdir data/VOC2007/CAT/Annotations/
+mkdir data/VOC2007/CAT/Annotations_selective/
 ```
 2. Download the COCO Images and Annotations from [coco dataset](https://cocodataset.org/#download).
 3. Unzip train2017 and val2017 folder. The current directory structure should look like:
