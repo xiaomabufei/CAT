@@ -181,7 +181,7 @@ The files should be organized in the following structure:
 CAT/
 └── data/
     └── VOC2007/
-        └── CAT/
+        └── OWOD/
         	├── JPEGImages
         	├── ImageSets
         	└── Annotations_selective
