@@ -98,6 +98,58 @@ python test.py
 <p align="center" ><img width='500' src = "https://imgur.com/RlqbheH.png"></p> 
 <br>
 
+### Results
+
+<table align="center">
+    <tr>
+        <th> </th>
+        <th align="center" colspan=2>Task1</th>
+        <th align="center" colspan=2>Task2</th>
+        <th align="center" colspan=2>Task3</th>
+        <th align="center" colspan=1>Task4</th>
+    </tr>
+    <tr>
+        <td align="left">Method</td>
+        <td align="center">U-Recall</td>
+        <td align="center">mAP</td>
+        <td align="center">U-Recall</td>
+        <td align="center">mAP</td>
+        <td align="center">U-Recall</td>
+        <td align="center">mAP</td>
+        <td align="center">mAP</td>
+    </tr>
+    <tr>
+        <td align="left">ORE-EBUI</td>
+        <td align="center">1.5</td>
+        <td align="center">61.4</td>
+        <td align="center">3.9</td>
+        <td align="center">40.6</td>
+        <td align="center">3.6</td>
+        <td align="center">33.7</td>
+        <td align="center">31.8</td>
+    </tr>
+    <tr>
+        <td align="left">OW-DETR</td>
+        <td align="center">5.7</td>
+        <td align="center">71.5</td>
+        <td align="center">6.2</td>
+        <td align="center">43.8</td>
+        <td align="center">6.9</td>
+        <td align="center">38.5</td>
+        <td align="center">33.1</td>
+    </tr>
+    <tr>
+        <td align="left">OW-DETR</td>
+        <td align="center">24.0</td>
+        <td align="center">74.2</td>
+        <td align="center">23.0</td>
+        <td align="center">50.7</td>
+        <td align="center">24.6</td>
+        <td align="center">45.0</td>
+        <td align="center">42.8</td>
+    </tr>
+</table>
+
 #### Dataset Preparation
 
 The splits are present inside `data/VOC2007/CAT/ImageSets/` folder.
