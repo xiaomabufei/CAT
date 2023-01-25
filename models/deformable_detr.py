@@ -357,13 +357,8 @@ class SetCriterion(nn.Module):
         self.loss_store_save_loc = self.pseudo_store_path
 
 
-        if os.path.isfile(os.path.join(self.loss_store_save_loc, f'loss{args.start_epoch-1}.pt')):
-            print('Trying to load dynamic loss from ' + self.loss_store_save_loc)
-            self.loss_memory = torch.load(os.path.join(self.loss_store_save_loc, f'loss{args.start_epoch-1}.pt'), map_location='cpu')
-        else:
-            print('dynamic memory loss not found in ' +
-                                            self.loss_store_save_loc + '. Creating new loss memory.')
-            self.loss_memory = Memory_loss(self.memory_length)
+
+        self.loss_memory = Memory_loss(self.memory_length)
 
     def pseudo_label_update(self, Iter, last_loss, epoch):
         self.loss_memory.add(last_loss)
