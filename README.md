@@ -5,8 +5,8 @@
 Open-world object detection (OWOD), as a more general and challenging goal, requires the model trained from data on known objects to detect both known and unknown objects and incrementally learn to identify these unknown objects. For existing works which employ standard detection framework and fixed pseudo-labelling mechanism
 (PLM), we observe the hindering problems. (𝑖) The inclusion of detecting unknown objects substantially reduces the model’s ability to detect known ones. (𝑖𝑖) The PLM does not adequately utilize the priori knowledge of inputs. (𝑖𝑖𝑖) The fixed manner of PLM cannot guarantee that the model is trained in the right direction. We observe that humans subconsciously prefer to focus on all foreground objects and then identify each one in detail, rather than localize and identify a single object simultaneously, for alleviating the confusion. This motivates us to propose a novel solution called CAT: LoCalization and IdentificAtion Cascade Detection Transformer which decouples the detection process via two cascade transformer decoders. In the meanwhile, we propose the self-adaptive pseudo-labelling mechanism which combines the model-driven with input-driven PLM and self-adaptively generates robust pseudo-labels for unknown objects, significantly improving the ability of CAT to retrieve unknown objects. Comprehensive experiments on two benchmark datasets, 𝑖.𝑒., MS-COCO and PASCAL VOC, show that our model outperforms the state-of-the-art in terms of all metrics in the task of OWOD, incremental object detection (IOD) and open-set detection.
 
+![整体框架](https://user-images.githubusercontent.com/104605826/215408300-e58a500f-ae76-4fdb-aab6-3182e0c8b029.png)
 
-![整体框架](https://user-images.githubusercontent.com/104605826/215407208-4886b0a1-0aec-45d9-ac47-061439033f2e.png)
 
 # Installation
 
