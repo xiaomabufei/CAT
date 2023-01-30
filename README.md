@@ -89,17 +89,8 @@ python test.py
         <td align="center">34.6</td>
         <td align="center">30.4</td>
     </tr>
-<!--     <tr>
-        <td align="left">Weight</td>
-        <td align="center">[T1] (https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
-        <td align="center"> </td>
-        <td align="center">[T2] (https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
-        <td align="center"> </td>
-        <td align="center">[T3] (https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
-        <td align="center"> </td>
-        <td align="center">[T4](https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
-    </tr> -->
 </table>
+### Weights
 
 
 ### OWDETR proposed splits
@@ -159,7 +150,11 @@ python test.py
         <td align="center">42.8</td>
     </tr>
 </table>
-
+### Weights
+[T1](https://drive.google.com/file/d/1Q9e2bhZ3-VvuOrEGN71SHUBwwhc6qS8q/view?usp=sharing)
+[T2_ft](https://drive.google.com/file/d/1XLOuVnAW5z7Eo_13iy-Ri_SzkcO_2gok/view?usp=sharing)
+[T3_ft](https://drive.google.com/file/d/1XDMU2uulDUFGFyV0UIrU8D9HVBGeDTbh/view?usp=sharing)
+[T4_ft](https://drive.google.com/file/d/1bq5yqwNKKgXZiRrfonda7mNIWislmmW7/view?usp=sharing)
 #### Dataset Preparation
 
 The splits are present inside `data/VOC2007/CAT/ImageSets/` folder.
