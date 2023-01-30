@@ -79,12 +79,21 @@ python test.py
         <td align="center">30.8</td>
         <td align="center">27.8</td>
     </tr>
-        <tr>
+    <tr>
         <td align="left">CAT</td>
         <td align="center">21.8</td>
         <td align="center">59.9</td>
         <td align="center">19.2</td>
         <td align="center">43.6</td>
+        <td align="center">24.4</td>
+        <td align="center">34.6</td>
+        <td align="center">30.4</td>
+    </tr>
+    <tr>
+        <td align="left">Weight</td>
+        <td align="center">[T1](https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
+        <td align="center">[T2](https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
+
         <td align="center">24.4</td>
         <td align="center">34.6</td>
         <td align="center">30.4</td>
