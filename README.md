@@ -93,6 +93,7 @@ python test.py
 
 ### Weights
 
+[T1 weight](https://drive.google.com/file/d/1IesSeZOfJblP8r-fFhxdY32F6vTlLJF1/view?usp=sharing)      |      [T2_ft weight](https://drive.google.com/file/d/1zRG0e7KnrUl-c0RLsYWpETRsJ4qJ32bt/view?usp=sharing)      |      [T3_ft weight](https://drive.google.com/file/d/1d0cgjmzS2GSzgUyyMKuafKRmMa8GNxXy/view?usp=sharing)      |      [T4_ft weight](https://drive.google.com/file/d/1d766FdmIc07zaWlbW1slCQGZuQmggEM3/view?usp=sharing)
 
 ### OWDETR proposed splits
 
