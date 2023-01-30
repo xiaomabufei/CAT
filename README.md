@@ -89,7 +89,7 @@ python test.py
         <td align="center">34.6</td>
         <td align="center">30.4</td>
     </tr>
-    <tr>
+<!--     <tr>
         <td align="left">Weight</td>
         <td align="center">[T1] (https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
         <td align="center"> </td>
@@ -98,7 +98,7 @@ python test.py
         <td align="center">[T3] (https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
         <td align="center"> </td>
         <td align="center">[T4](https://drive.google.com/file/d/1wm7NwBBc1cY18wHQ_uCqzQrDkX43Svv4/view?usp=sharing)</td>
-    </tr>
+    </tr> -->
 </table>
 
 
