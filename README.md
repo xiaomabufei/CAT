@@ -90,6 +90,7 @@ python test.py
         <td align="center">30.4</td>
     </tr>
 </table>
+
 ### Weights
 
 
@@ -150,14 +151,12 @@ python test.py
         <td align="center">42.8</td>
     </tr>
 </table>
+
 ### Weights
 
 [T1 weight](https://drive.google.com/file/d/1Q9e2bhZ3-VvuOrEGN71SHUBwwhc6qS8q/view?usp=sharing)
-
 [T2_ft weight](https://drive.google.com/file/d/1XLOuVnAW5z7Eo_13iy-Ri_SzkcO_2gok/view?usp=sharing)
-
 [T3_ft weight](https://drive.google.com/file/d/1XDMU2uulDUFGFyV0UIrU8D9HVBGeDTbh/view?usp=sharing)
-
 [T4_ft weight](https://drive.google.com/file/d/1bq5yqwNKKgXZiRrfonda7mNIWislmmW7/view?usp=sharing)
 
 #### Dataset Preparation
