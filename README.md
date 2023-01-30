@@ -83,11 +83,11 @@ python test.py
         <td align="left">CAT</td>
         <td align="center">21.8</td>
         <td align="center">59.9</td>
-        <td align="center">18.6</td>
-        <td align="center">43.8</td>
-        <td align="center">23.9</td>
-        <td align="center">34.7</td>
-        <td align="center">30.6</td>
+        <td align="center">19.2</td>
+        <td align="center">43.6</td>
+        <td align="center">24.4</td>
+        <td align="center">34.6</td>
+        <td align="center">30.4</td>
     </tr>
 </table>
 
@@ -139,7 +139,7 @@ python test.py
         <td align="center">33.1</td>
     </tr>
     <tr>
-        <td align="left">OW-DETR</td>
+        <td align="left">CAT</td>
         <td align="center">24.0</td>
         <td align="center">74.2</td>
         <td align="center">23.0</td>
