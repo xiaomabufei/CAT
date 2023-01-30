@@ -242,7 +242,7 @@ If you use CAT, please consider citing:
 
 # Contact
 
-Should you have any question, please contact :e-mail: xiaomabufei@gmail.com
+Should you have any question, please contact :e-mail: xiaomabufei@gmail.com or wangyuefeng0203@gmail.cpm
 
 **Acknowledgments:**
 
