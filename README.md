@@ -234,9 +234,10 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 
 If you use CAT, please consider citing:
 ~~~
-@inproceedings{Ma2023CATLA,
+@article{ma2023cat,
   title={CAT: LoCalization and IdentificAtion Cascade Detection Transformer for Open-World Object Detection},
-  author={Shuailei Ma and Yuefeng Wang and Jiaqi Fan and Ying-yu Wei and Thomas H. Li and Hongli Liu and Fanbing Lv},
+  author={Ma, Shuailei and Wang, Yuefeng and Fan, Jiaqi and Wei, Ying and Li, Thomas H and Liu, Hongli and Lv, Fanbing},
+  journal={arXiv preprint arXiv:2301.01970},
   year={2023}
 }
 ~~~
