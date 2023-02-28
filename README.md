@@ -1,4 +1,4 @@
-# CAT: LoCalization and IdentificAtion Cascade Detection Transformer for Open-World Object Detection
+# CAT: LoCalization and IdentificAtion Cascade Detection Transformer for Open-World Object Detection (CVPR2023)
 
 
 # Abstract
